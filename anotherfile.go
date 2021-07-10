@@ -12,6 +12,6 @@ func NewFooer() *fooer {
 	return &fooer{}
 }
 
-func (f *fooer) Foo2() {
+func (f *fooer) Foo() {
 	fmt.Println("foo")
 }
